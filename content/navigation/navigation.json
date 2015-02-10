@@ -1,0 +1,25 @@
+{  
+  "navigationList":[  
+    {  
+      "id":"movies",
+      "label":"Movies",
+      "url":"movies-app/movies",
+      "type":"external",
+      "authorizedGroups":"all"
+    },
+    {  
+      "id":"actors",
+      "label":"Actors",
+      "url":"actors-app/actors",
+      "type":"external",
+      "authorizedGroups":"all"
+    },
+    {  
+      "id":"news",
+      "label":"News",
+      "url":"/news/main",
+      "type":"cms",
+      "authorizedGroups":"all"
+    }
+  ]
+}
