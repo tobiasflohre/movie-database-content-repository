@@ -30,7 +30,7 @@
       "id":"cms",
       "label":"News",
       "order":2,
-      "url":"/news",
+      "url":"/cms/news",
       "type":"application",
 	  "application":"cms",
       "authorizedGroups":"all"
