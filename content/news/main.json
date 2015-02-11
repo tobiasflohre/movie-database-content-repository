@@ -1,0 +1,30 @@
+{  
+  "navigationElements":[  
+    {  
+      "id":"movies",
+      "label":"Movies",
+      "order":0,
+      "url":"/movies",
+      "type":"application",
+	  "application":"movies",
+      "authorizedGroups":"all"
+    },
+    {  
+      "id":"actors",
+      "label":"Actors",
+      "order":1,
+      "url":"/actors",
+      "type":"application",
+	  "application":"actors",
+      "authorizedGroups":"all"
+    },
+    {  
+      "id":"blog",
+      "label":"Blog",
+      "order":3,
+      "url":"https://blog.codecentric.de/en/2015/01/self-contained-systems-roca-complete-example-using-spring-boot-thymeleaf-bootstrap/",
+      "type":"external",
+      "authorizedGroups":"all"
+    }
+  ]
+}
