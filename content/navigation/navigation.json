@@ -3,22 +3,36 @@
     {  
       "id":"movies",
       "label":"Movies",
-      "url":"movies-app/movies",
-      "type":"external",
+      "order":0,
+      "url":"/movies",
+      "type":"application",
+	  "application":"movie-app",
       "authorizedGroups":"all"
     },
     {  
       "id":"actors",
       "label":"Actors",
-      "url":"actors-app/actors",
+      "order":1,
+      "url":"/actors",
+      "type":"application",
+	  "application":"actor-app",
+      "authorizedGroups":"all"
+    },
+    {  
+      "id":"blog",
+      "label":"Blog",
+      "order":3,
+      "url":"https://blog.codecentric.de/en/2015/01/self-contained-systems-roca-complete-example-using-spring-boot-thymeleaf-bootstrap/",
       "type":"external",
       "authorizedGroups":"all"
     },
     {  
       "id":"news",
       "label":"News",
-      "url":"/news/main",
-      "type":"cms",
+      "order":2,
+      "url":"/news",
+      "type":"application",
+	  "application":"cms-app",
       "authorizedGroups":"all"
     }
   ]
