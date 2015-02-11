@@ -25,6 +25,15 @@
       "url":"https://blog.codecentric.de/en/2015/01/self-contained-systems-roca-complete-example-using-spring-boot-thymeleaf-bootstrap/",
       "type":"external",
       "authorizedGroups":"all"
+    },
+    {  
+      "id":"cms",
+      "label":"News",
+      "order":2,
+      "url":"/news",
+      "type":"application",
+	  "application":"cms",
+      "authorizedGroups":"all"
     }
   ]
 }
