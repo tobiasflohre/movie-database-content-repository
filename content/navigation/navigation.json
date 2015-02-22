@@ -1,4 +1,5 @@
-{  
+{ 
+  "type":"navigation",	 
   "navigationElements":[  
     {  
       "id":"movies",
@@ -31,6 +32,15 @@
       "label":"News",
       "order":2,
       "url":"/cms/news",
+      "type":"application",
+	  "application":"cms",
+      "authorizedGroups":"all"
+    },
+    {  
+      "id":"cinemas",
+      "label":"Cinemas",
+      "order":4,
+      "url":"/cinemas",
       "type":"application",
 	  "application":"cms",
       "authorizedGroups":"all"
